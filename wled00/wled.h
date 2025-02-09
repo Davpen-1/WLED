@@ -34,7 +34,7 @@
 #else
   #undef WLED_ENABLE_ADALIGHT      // disable has priority over enable
 #endif
-//#define WLED_ENABLE_DMX          // uses 3.5kb
+#define WLED_ENABLE_DMX          // uses 3.5kb
 #ifndef WLED_DISABLE_LOXONE
   #define WLED_ENABLE_LOXONE       // uses 1.2kb
 #endif
